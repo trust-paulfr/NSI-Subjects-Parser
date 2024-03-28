@@ -3,7 +3,7 @@ import ParsedPDFFIleType from '../types/ParsedPDFFile';
 const PDFParser = require('pdf-to-text');
 
 class NSI_SUBJECTS_CONVERT_PDF {
-    PDFExportPath: string;
+    private PDFExportPath: string;
 
     constructor(PDFExportPath: string) {
         this.PDFExportPath = PDFExportPath;

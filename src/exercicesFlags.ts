@@ -1,8 +1,8 @@
 import ParsedPDFFIleType from '../types/ParsedPDFFile';
 
 class NSI_SUBJECTS_EXO_FLAGS {
-    flags: string[];
-    triggers: string[][];
+    private flags: string[];
+    private triggers: string[][];
     
     constructor() {
         this.flags = ['POO', 'Recursive', 'dico', 'liste', 'pile/file', 'arbre/graphe'];
